@@ -15,8 +15,28 @@ slidenumbers: true
 # Alternative Titles
 
 * You Won't Believe What Swift in VS Code Looks Like Now! See Jaw-Dropping Transformation in Next Slides!
-* Earn $10,000 Per Month Working from Home! This Developer Discovered How - Watch to Find Out!
+* Earn $10,000 Per Month Working in Swift! This Developer Discovered How - Watch to Find Out!
 * 10 Shocking Facts about Swift in VS Code That Will Blow Your Mind! Number 6 Will Leave You Speechless!
+
+---
+
+# Quick Tour for the Uninitiated
+
+- [[VSCode alloc] init] for the Xcode diehards
+
+^
+- Empty window
+- Click around the views
+- Command Palette
+  - Create New File #!/bin/sh - Recognises as a Shell Script (logo and status bar)
+- Command Palette, Create new file
+  - Change Font size 
+  - Change Font
+  - Add ruler manually
+- Open Folder: Software Projects like Folders - Cocoaheads
+- Open Terminal through the top bar (and t)
+
+---
 
 # GitHub Integration
 
