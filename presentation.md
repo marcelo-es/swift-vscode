@@ -38,6 +38,11 @@ slidenumbers: true
 
 ---
 
+^
+Implement test case of lame Xcode
+
+---
+
 # GitHub Integration
 
 - Comment on a PR
