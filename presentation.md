@@ -1,10 +1,9 @@
 build-lists: true
 autoscale: true
-footer: © Marcelo Esperidiao @marcelo@mastodon.au
-slidenumbers: true
+footer: Swift in VS Code © Marcelo Esperidiao @marcelo@mastodon.au
+slidenumbers: false
 
 [.footer: ]
-[.slidenumbers: false]
 
 # Swift in VS Code
 
@@ -42,13 +41,14 @@ slidenumbers: true
 
 # What Just Happened??
 
-- Language Server Protocol (LSP)
+- Language Server Protocol (LSP) happened
+
 ^
 Implement test case of lame Xcode
 
 ---
 
-# Back to VS Code
+# Back to VS Code Swiftin'
 
 ^
 - Build Tasks - Build
@@ -74,6 +74,15 @@ Implement test case of lame Xcode
 ![right, fit](Images/SourceKit-LSPStatus.png)
 
 ---
+[.footer: ]
 
+# Thanks!
+
+## Questions?
+
+### @marcelo@mastodon.au
+### github.com/marcelo-es/swift-vscode
+
+---
 <!-- ![100%](Images/NoEditorSymbolsError.png)
 ![100%](Images/SourceKit-LSPError.png) -->
