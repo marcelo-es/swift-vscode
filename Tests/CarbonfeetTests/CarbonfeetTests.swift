@@ -14,14 +14,5 @@ final class CarbonfeetTests: XCTestCase {
     }
 
     //TODO: Test Xcode's Awesomeness (or lack thereof)
-    func testXCodeAwesomeness() {
-
-        let subject = Carbonfeet()
-
-        let awesomeness = subject.awesomeness(of: .Xcode)
-        let xCodeAwesomeness: Carbonfeet.Awesomeness = .lame
-
-        XCTAssertEqual(awesomeness, xCodeAwesomeness)
-    }
 
 }

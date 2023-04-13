@@ -103,16 +103,9 @@ SourceKit-LSP
 - Build Tasks - Build
 - Jump to definition
 - Documentation
-- Implement test case of lame Xcode, fail, fix it
+- Implement test case of lame Xcode, show autocomplete, fail, fix it
 - Run, edit launch.json
 - Debug, check
-
----
-
-# GitHub Integration
-
-- Comment on a PR
-- Type `.` to Code
 
 ---
 
@@ -126,6 +119,16 @@ SourceKit-LSP
 * Also, only SwiftPM projects
 
 ![right, fit](Images/SourceKit-LSPStatus.png)
+
+---
+
+# Is That All??
+
+^
+- Comment on a PR
+- GitHub Extension
+- GitHub Theme
+- Vim
 
 ---
 [.footer: ]
