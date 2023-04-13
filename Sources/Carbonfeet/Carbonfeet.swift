@@ -19,7 +19,7 @@ public struct Carbonfeet {
 
     public func awesomeness(of editor: Editor) -> Awesomeness {
         switch editor {
-        case  .VSCode:
+        case .VSCode:
             return [.fantastic, .beautiful, .marvelous, .extraordinary].randomElement()!
         case .Xcode:
             return .lame
