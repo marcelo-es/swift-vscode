@@ -33,13 +33,26 @@ slidenumbers: true
   - Change Font size 
   - Change Font
   - Add ruler manually
-- Open Folder: Software Projects like Folders - Cocoaheads
-- Open Terminal through the top bar (and t)
+- Open Folder: Software Projects like Folders - swift-vscode
+- Introduce project, show what it does
+- then show there is no navigation, it's a glorified text editor
+- Install Swift extension
 
 ---
 
+# What Just Happened??
+
+- Language Server Protocol (LSP)
 ^
 Implement test case of lame Xcode
+
+---
+
+# Back to VS Code
+
+^
+- Build Tasks - Build
+- 
 
 ---
 
