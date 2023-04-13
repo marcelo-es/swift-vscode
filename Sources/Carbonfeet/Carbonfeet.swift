@@ -1,4 +1,4 @@
-/// Before Cocoa had heads, Carbon had feet~
+/// Before Cocoa had heads, Carbon had feet.
 public struct Carbonfeet {
 
     public enum Editor: String {

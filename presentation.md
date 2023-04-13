@@ -21,8 +21,6 @@ slidenumbers: false
 
 # Quick Tour for the Uninitiated
 
-- [[VSCode alloc] init] for the Xcode diehards
-
 ^
 - Empty window
 - Click around the views
@@ -42,17 +40,72 @@ slidenumbers: false
 # What Just Happened??
 
 - Language Server Protocol (LSP) happened
+- `Development Tool` <--`LSP`--> `Language Server`
+- `VS Code` <--`LSP`--> `SourceKit-LSP`
 
 ^
-Implement test case of lame Xcode
+SourceKit-LSP - Built over SourceKit and CLANG
 
 ---
 
-# Back to VS Code Swiftin'
+# Language Server Protocol
+
+[.column]
+VS Code
+
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "textDocument/definition",
+  "params": {
+    "textDocument": {
+      "uri": "file:///Users/Marcelo/swift-vscode/
+        Sources/Cocoaheads/Cocoaheads.swift"
+    },
+    "position": {
+      "line": 7,
+      "character": 39
+    }
+  }
+}
+```
+
+[.column]
+SourceKit-LSP
+
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "uri": "file:///Users/Marcelo/swift-vscode/
+      Sources/Carbonfeet/Carbonfeet.swift",
+    "range": {
+      "start": {
+        "line": 4,
+        "character": 23
+      },
+      "end": {
+        "line": 4,
+        "character": 29
+      }
+    }
+  }
+}
+```
+
+---
+
+# Back to Swiftin'
 
 ^
 - Build Tasks - Build
-- 
+- Jump to definition
+- Documentation
+- Implement test case of lame Xcode, fail, fix it
+- Run, edit launch.json
+- Debug, check
 
 ---
 
@@ -70,6 +123,7 @@ Implement test case of lame Xcode
   * No renaming
   * No formatting
     * Swift-Format was designed to work with SourceKit-LSP
+* Also, only SwiftPM projects
 
 ![right, fit](Images/SourceKit-LSPStatus.png)
 
