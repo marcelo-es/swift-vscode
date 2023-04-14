@@ -1,3 +1,3 @@
 # Swift on VS Code
 
-First presented on Melbourne CocoaHeads, April 2023
+Presented on [Melbourne CocoaHeads No. 164, April 2023](https://www.youtube.com/watch?v=sDeHLWLIEOM&t=753s)
